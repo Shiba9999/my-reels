@@ -1,0 +1,118 @@
+.signup__screen{
+    margin-top: 30%;
+outline:  grey  solid 10px;
+ outline-width: 0.5px;
+ padding-top: 10px;
+ padding-left: 10px;
+ padding-right: 5px;
+ padding-bottom: 10px;
+
+
+
+}
+.main__container{
+    display: flex;
+    flex-direction: column;
+
+}
+.top__container>img{
+    width: 50%;
+    margin-left: 120px;
+    background-color:yellow;
+
+}
+.top__container>img:hover{
+    cursor: pointer;
+}
+.top__container>h3{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: 80;
+}
+.mid__container>input{
+    height:30px;
+    width: 60%;
+    margin-left: 18%;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font: 15px/1 'Open Sans', sans-serif;
+    color: #6B7280;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    max-width: 500px;
+    background-color:#E5E7EB;
+    border: none;
+  
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+   
+    box-sizing: border-box; 
+}
+.mid__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.mid__container>button{
+    height:30px;
+    width: 30%;
+    margin-left: 30%;
+
+    font-size: 1rem;
+
+   
+   color: white;
+   background-color: #60A5FA;
+    border-radius: 5px;
+    
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.button__container{
+  margin-bottom: 15px;
+  margin-left: 28%;
+
+}
+.mid__container>button:hover{
+    background-color: #3730A3
+}
+label {
+    background-color: #F472B6;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    
+  }
+  label:hover{
+   background-color: #BE185D;
+  }
+  .mid__container>h3{
+    margin-left: 35px;
+    margin-top: 30px;
+    font-weight: 100;
+  }
+  .footer{
+    margin-left: 25%;
+
+  }
+  .footer>h3{
+      font-weight: 400;
+      font-family:sans-serif;
+  }
+  .footer>h3>span{
+    cursor: pointer;
+    color: #2563EB
+
+  }
+  .footer>h3>span:hover{
+    text-decoration: underline;
+  }
+

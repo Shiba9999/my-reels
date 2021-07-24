@@ -1,0 +1,13 @@
+.division{
+    height: 700px;
+    width: 400px;
+    background-color: black;
+    margin: 2rem;
+}
+
+.video-styles{
+    height: 100%;
+    width: 100%;
+    /* in beyween video gap */
+  
+}
